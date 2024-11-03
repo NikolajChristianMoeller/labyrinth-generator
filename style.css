@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(var(--GRID_WIDTH), max-content);
+    grid-template-rows: repeat(var(--GRID_HEIGHT), max-content);
+    border-left: 1px dashed darkgray;
+    border-top: 1px dashed darkgray;
+    width: fit-content;
+    border-color: black;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(3);
+}
+
+.cell {
+    width: 32px;
+    aspect-ratio: 1 / 1;
+    background-color: #777;
+    border-right: 1px dashed darkgray;
+    border-bottom: 1px dashed darkgray;
+}
+
+.no-north {
+    border-top: none;
+    border-color: black;
+}
+
+.no-east {
+    border-right: none;
+    border-color: black;
+}
+
+.no-west {
+    border-left: none;
+    border-color: black;
+}
+
+.no-south {
+    border-bottom: none;
+    border-color: black;
+}
+
+.path {
+    background-color: yellow;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    border: 0.5px solid white;
+
+}
+
+.backtrack {
+    background-color: blue;
+    opacity: 0.5;
+}
+
+.goal {
+    background-color: red;
+}
+
+.start {
+    background-color: green;
+}
