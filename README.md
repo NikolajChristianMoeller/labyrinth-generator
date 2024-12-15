@@ -1,4 +1,4 @@
-# Maze-Generator
+# Labyrinth Generator
 
 Dette er en maze generator som kan generere en labyrint. Den er ikke fuldstændig færdig.
 
