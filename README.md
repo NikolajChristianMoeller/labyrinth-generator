@@ -1,6 +1,6 @@
 # Labyrinth Generator
 
-Dette er en maze generator som kan generere en labyrint. Den er ikke fuldstændig færdig.
+Dette er en labyrinth generator som kan generere en labyrint. Den er ikke fuldstændig færdig.
 
 Algoritmen benytter Kruskal's algoritme og Sidewinder til labyrintgenerering.
 
