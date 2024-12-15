@@ -1,9 +1,9 @@
 # Labyrinth Generator
 
-Dette er en labyrinth generator som kan generere en labyrint. Den er ikke fuldstændig færdig.
+This is a labyrinth generator that can generate a labyrinth. It is not fully completed.
 
-Algoritmen benytter Kruskal's algoritme og Sidewinder til labyrintgenerering.
+The algorithm uses Kruskal's algorithm and the Sidewinder method for labyrinth generation.
 
-Kruskal's algoritme fjerner tilfældige vægge for at forbinde celler, mens Sidewinder-metoden skaber lodrette eller vandrette korridorer.
+Kruskal's algorithm removes random walls to connect cells, while the Sidewinder method creates vertical or horizontal corridors.
 
-Ressourcer: grundlæggende algoritmeteori, herunder Kruskal's MST og Sidewinder i labyrintgenerering.
+Resources: basic algorithm theory, including Kruskal's MST and Sidewinder in labyrinth generation.
